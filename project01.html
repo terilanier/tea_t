@@ -11,6 +11,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/css-lightbox.css" />
+		<link rel="stylesheet" href="assets/projects.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -52,13 +54,81 @@
 						<div class="inner">
 							<h3 strong style="color:#862633;">Ace Hardware Logo Redesign</h3><h4>Illustrator, InDesign, Photoshop</h4>
 							<p>Ace Hardware is an award-winning brand. The stores are noteable for award-winning customer service and local convenience. By changing symbolism in the iconic logo to include gardening and by selecting recognizable tool shapes, I am able to express the brand's friendly qualities and better showcase all departments. </p>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+							<p>After researching, I learned that 30% of sales come from the nursery department and yard-related products. It was important to me to include imagery related to gardening to attract this customer base. New icons were developed for an infographic and mailable brochure to address the many ways in which Ace Hardware attends to gardeners' various yard purchases.</p>
 						</div>
-					</div>
-
 		
+				<!-- Main -->
+    <div class="photo-content">
+			<div class="row">
+  			<div class="column">
+    <img src="./images/thumbs/ace/t_01.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/thumbs/ace/t_02.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/thumbs/ace/t_03.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/thumbs/ace/t_04.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/thumbs/ace/t_05.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./images/thumbs/ace/t_06.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+				  <div class="column">
+    <img src="./images/thumbs/ace/t_001.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
 
-			</div>
+</div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 7</div>
+      <img src="./images/fulls/ace/01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 7</div>
+      <img src="./images/fulls/ace/02.jpg" style="width:100%" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 7</div>
+      <img src="./images/fulls/ace/03.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 7</div>
+      <img src="./images/fulls/ace/04.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 7</div>
+      <img src="./images/fulls/ace/05.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 7</div>
+      <img src="./images/fulls/ace/06.jpg" style="width:100%">
+    </div>
+	  
+	    <div class="mySlides">
+      <div class="numbertext">7 / 7</div>
+      <img src="./images/fulls/ace/001.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    </div>
+    </div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -66,6 +136,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/jslightbox.js"></script>
 
 	</body>
 </html>
