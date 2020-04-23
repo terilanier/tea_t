@@ -286,10 +286,10 @@ font-family: 'Roboto', sans-serif;
 	h1 {
 		font-family: 'Montserrat Alternates', sans-serif;
 		font-size: 2.75em;
-		font-weight: 700;
+		font-weight: 500;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: -0.015em;
 	}
 
 		h1 a {
@@ -2500,7 +2500,7 @@ height:inherit;
 .resp-container {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
+    padding-top: 50%;
 }
 
 .resp-iframe {
@@ -2710,6 +2710,19 @@ height:inherit;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tiles */
 
 	.tiles {
@@ -2877,6 +2890,7 @@ height:inherit;
 				background-color: #862633;
 			}
 
+
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
 				-webkit-transform: scale(1.1);
@@ -2977,7 +2991,7 @@ height:inherit;
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 4em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -3003,8 +3017,8 @@ height:inherit;
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					
+					height: 4em;
 				}
 
 		#header nav {
